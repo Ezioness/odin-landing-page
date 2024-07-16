@@ -92,20 +92,82 @@ button {
 
 /* CONTENT  */
 .content {
-    padding: 0;
     flex: 5;
     display: flex;
     flex-direction: column;
 }
 
+.infos {
+    display: flex;
+    justify-content: space-around;
+}
 
-
-.content > *{
+.information h1 {
+    padding: 0 20%;
+    text-align: center;
     flex: 1;
+}
+
+.information {
+    margin-bottom: 64px;
+}
+
+.info {
+    padding: 15px;
+    text-align: center;
+}
+
+.info > .img-placeholder {
+    height: 175px;
+    width: 175px;
+    margin: 0 auto;
+    border: 4px solid #3882F6;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    padding: 128px 20%;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
 }
 
+.quote p {
+    font-size: 18px;
+    text-align: end;
+    font-weight: 600;
+}
+
+.signup {
+    padding: 64px 20%;
+}
+
+.signup-area {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 64px 128px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-area button  {
+    border: 2px solid #E5E7EB;
+    font-size: 18px;
+}
+
+.ctoa {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.signup-area p {
+    margin: 0;
+}
 /* FOOTER */
